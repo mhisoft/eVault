@@ -614,6 +614,10 @@ public class WalletForm {
 
 	public void doFilter() {
 		if (fldFilter.getText() != null && fldFilter.getText().trim().length() > 0) {
+			//need to ask to save the current changes if there are changes on the current form.
+			saveCurrentEdit(true);
+
+
 			switchMode(TreePanelMode.filter);
 
 			listExploreView.filterItems(fldFilter.getText());

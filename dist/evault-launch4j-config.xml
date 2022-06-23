@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>S:/projects/mhisoft/evault-app/wallet/dist/tmp_make_exe/evault-combined.jar</jar>
-  <outfile>S:/projects/mhisoft/evault-app/wallet/dist/evault-1.3.8.exe</outfile>
+  <jar>S:/projects/mhisoft/evault-2/wallet/dist/tmp_make_exe/evault-combined.jar</jar>
+  <outfile>S:/projects/mhisoft/evault-2/wallet/dist/evault-1.3.9.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir></chdir>

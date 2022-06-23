@@ -54,7 +54,7 @@ also add the entry to the MANIFEST.MF
     <property name="launch4j.home.dir" value="c:/bin/Launch4j"/>
 
 
-    <property name="version" value="1.4.0"/>
+    <property name="version" value="1.3.9"/>
     <property name="commonutil.version" value="1.0"/>
     <property name="AppNameWithVersion" value="MHISoft eVault ${version}"/>
     <property name="ARTIFACT_NAME" value="evault-${version}"/>

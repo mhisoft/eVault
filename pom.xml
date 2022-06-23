@@ -5,7 +5,7 @@
 
     <groupId>org.mhisoft.java.apps</groupId>
     <artifactId>evault</artifactId>
-    <version>1.3.8</version>   <!--app version-->
+    <version>1.3.9</version>   <!--app version-->
     <packaging>jar</packaging>
     <name>evault</name>
     <description>Wallet</description>
