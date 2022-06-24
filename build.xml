@@ -39,7 +39,7 @@ also add the entry to the MANIFEST.MF
         -->
 
 <!--clean build steps-->
-<!--1. mvn clean uner wallet dir-->
+<!--1. mvn clean under the wallet dir-->
 <!--2. build project from intelliJ. (let intelliJ build the UI designer forms)-->
 <!--3. ant dist-->
 
