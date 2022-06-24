@@ -38,7 +38,10 @@ also add the entry to the MANIFEST.MF
 
         -->
 
-
+<!--clean build steps-->
+<!--1. mvn clean uner wallet dir-->
+<!--2. build project from intelliJ. (let intelliJ build the UI designer forms)-->
+<!--3. ant dist-->
 
 <project name="eWallet build" default="dist" >
 
@@ -108,6 +111,10 @@ also add the entry to the MANIFEST.MF
             </exec>
         </sequential>
     </macrodef>
+
+    <target name="clean" description="clean the target dir">
+        <maven dir=".." argline="clean"/>
+    </target>
 
     <target name="build" description="build the project">
         <antcall target="update-version"></antcall>
